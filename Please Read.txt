@@ -1,0 +1,17 @@
+--Virtual Raphael--
+
+To run this version you will need to access the training reports, via the release on this branch.
+Once you have the accident reports for training.
+
+Please ensure that the 'Function&Files', 'Reports' (folder containing the training reports), 'Results' and 'Uploads' 
+folders are within the folder containing the scripts, and on the path.
+
+To run the classifier on a new report, replace/add the file to the 'Uploads' folder, then simply run 'reportClassifier.m'
+Alternatively you may run 'reportClassifier_selectfile.m' which will prompt you to select the new report for classification.
+
+There wil then be two outputs in the 'Results' folder, one 'accuracies.txt' showing the accuracy metrics from the training part of the process,
+and then 'factors.txt' which show the factors the model has extracted from the uploaded report. Please note these are replaced each time the 
+scripts are run so please save/rename these before entering a new report.
+
+
+
